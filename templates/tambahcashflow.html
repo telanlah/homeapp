@@ -1,0 +1,14 @@
+<h1>TAMBAH CASH FLOW </h1>
+
+<form method="POST" action="tambahcashflow">
+    {% csrf_token %}
+    <p>Tanggal</p>
+    <input type="text" name="tanggal">
+    <p>Keterangan</p>
+    <input type="text" name="keterangan">
+    <p>Kuantitas</p>
+    <input type="text" name="kuantitas">
+    <p>Nominal</p>
+    <input type="text" name="nominal">
+    <button type="submit">Simpan</button>
+</form>
